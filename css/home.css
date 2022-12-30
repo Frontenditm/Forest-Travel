@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 1146px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(../img/Group\ 26.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+}
+.header_logo{
+    margin-top: 30px;
+}
+.navigition{
+    float: right;
+    width: 430px;
+    margin-top: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-right: 3px;
+}
+.navigition_ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+li>a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+.li_2{
+    padding-left: 50px;
+}
+.li_3{
+    padding-left: 50px;
+}
+.li_4{
+    padding-left: 50px;
+}
+.home_h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 140px;
+}
+.home_img{
+    padding-bottom: 125px;
+    margin-top: 60px;
+}
+.img_1{
+    margin-right: 26px;
+    margin-bottom: 26px;
+}
+.img_2{
+    margin-bottom: 26px;
+}
+.img_3{
+    margin-top: 400px;
+    margin-right: 31px;
+    margin-bottom: 26px;
+}
+.img_4{
+    position: absolute;
+}
+.img_5{
+    position: absolute;
+    right: 690px;
+}
+footer{
+    background-image: url(../img/Group\ 7.jpg);
+    background-repeat: no-repeat;
+}
+.forest{
+    width: 166px;
+    padding-top: 60px;
+}
+.forest_h3{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.forest_text{
+    padding-top: 15px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+}
+.footer{
+    display: flex;
+}
+.info{
+    padding-top: 60px;
+    margin-left: 150px;
+    line-height: 40px;
+}
+.info_h3{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.info_text{
+    margin-top: 25px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.info_a{
+    text-decoration: none;
+    color: #fff;
+}
+.servic{
+    padding-top: 60px;
+    margin-left: 150px;
+    line-height: 40px;
+}
+.servic_h3{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+.servic_text{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+.servic_a{
+    text-decoration: none;
+    color: #fff;
+}
+.contact{
+    padding-top: 60px;
+    margin-left: 200px;
+    line-height: 40px;
+}
+.contact_h3{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+.contact_text{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+@media (min-width:1500px){
+    .img_5{
+        position: absolute;
+        right: 815px;
+    }
+}

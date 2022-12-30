@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 1146px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(../img/Group\ 1.jpg);
+    background-repeat: no-repeat;
+}
+.header_logo{
+    margin-top: 30px;
+}
+.navigition{
+    float: right;
+    width: 430px;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-right: 3px;
+}
+.navigition_ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+li>a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+.li_2{
+    padding-left: 50px;
+}
+.li_3{
+    padding-left: 50px;
+}
+.li_4{
+    padding-left: 50px;
+}
+h1{
+    font-weight: normal;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 80px;
+    margin-top: 200px;
+    text-align: center;
+    color: #fff;
+}
+.header_text{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 40px;
+}
+.header_button{
+    margin-top: 110px;
+}
+.header_btn_text{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    opacity: .7;
+}
+.header_btn_img{
+    padding-left: 555px;
+    margin-bottom: 26px;
+}
+.location_h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    width: 460px;
+    margin-top: 140px;
+}
+.location_text{
+    color: black;
+    width: 460px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 35px;
+    font-weight: normal;
+}
+.location_buttom{
+    border-radius: 100px;
+    border: none;
+    background-color: #28A745;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 59px;
+    padding-right: 60px;
+    width: 137px;
+    margin-top: 60px;
+}
+.location_buttom:hover{
+    content: "";
+    box-shadow: 0px 0px 40px 0px rgba(0, 123, 255, 0.51);
+    transition: .3s;
+}
+.location_btn{
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+.hike_item{
+    float: right;
+    margin-top: -835px;
+}
+.location_img{
+    float: right;
+    margin-top: -610px;
+}
+.hike{
+    margin-top: 150px;
+    margin-bottom: 135px;
+}
+.hike_h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    width: 460px;
+}
+.hike_text{
+    color: black;
+    width: 460px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: normal;
+}
+footer{
+    background-image: url(../img/Group\ 7.jpg);
+    background-repeat: no-repeat;
+}
+.forest{
+    width: 166px;
+    padding-top: 60px;
+}
+.forest_h3{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.forest_text{
+    padding-top: 15px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+}
+.footer{
+    display: flex;
+}
+.info{
+    padding-top: 60px;
+    margin-left: 150px;
+    line-height: 40px;
+}
+.info_h3{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.info_text{
+    margin-top: 25px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.info_a{
+    text-decoration: none;
+    color: #fff;
+}
+.servic{
+    padding-top: 60px;
+    margin-left: 150px;
+    line-height: 40px;
+}
+.servic_h3{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+.servic_text{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+.servic_a{
+    text-decoration: none;
+    color: #fff;
+}
+.contact{
+    padding-top: 60px;
+    margin-left: 200px;
+    line-height: 40px;
+}
+.contact_h3{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+.contact_text{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}

@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 1146px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(../img/Group\ 26.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+}
+.header_logo{
+    margin-top: 30px;
+}
+.navigition{
+    float: right;
+    width: 430px;
+    margin-top: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-right: 3px;
+}
+.navigition_ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+li>a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+.li_2{
+    padding-left: 50px;
+}
+.li_3{
+    padding-left: 50px;
+}
+.li_4{
+    padding-left: 50px;
+}
+.more_h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: black;
+    margin-top: 131px;
+    margin-bottom: 26px;
+}
+.buttom_ul{
+    padding-left: 0;
+    width: 264px;
+}
+.buttom_li{
+    list-style: none;
+}
+.buttom_a{
+    text-decoration: none;
+    color: #007BFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+.buttom_a:hover{
+    content: "";
+    transition: .3s;
+    color: #DC3545;
+}
+hr{
+    color: #9C9C9C;
+    border: solid 2px #9C9C9C;
+    opacity: 20%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.more_h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    float: right;
+    margin-top: -420px;
+    margin-right: 366px;
+}
+.more_p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #000;
+    float: right;
+    margin-top: -300px;
+    width: 730px;
+    line-height: 35px;
+}
+.more_img{
+    position: absolute;
+    top: 516px;
+    left: 520px;
+    width: 725px;
+}
+.more_1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #000;
+    float: right;
+    width: 730px;
+    line-height: 35px;
+    margin-top: 260px;
+}
+.more_2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #000;
+    float: right;
+    width: 730px;
+    line-height: 35px;
+}
+.more_3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #000;
+    float: right;
+    width: 730px;
+    line-height: 35px;
+    margin-bottom: 500px;
+}
+footer{
+    background-image: url(../img/Group\ 7.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1500px;
+    width: 100%;
+}
+.forest{
+    width: 166px;
+    padding-top: 60px;
+}
+.forest_h3{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.forest_text{
+    padding-top: 15px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+}
+.footer{
+    display: flex;
+}
+.info{
+    padding-top: 60px;
+    margin-left: 150px;
+    line-height: 40px;
+}
+.info_h3{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.info_text{
+    margin-top: 25px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.info_a{
+    text-decoration: none;
+    color: #fff;
+}
+.servic{
+    padding-top: 60px;
+    margin-left: 150px;
+    line-height: 40px;
+}
+.servic_h3{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+.servic_text{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+.servic_a{
+    text-decoration: none;
+    color: #fff;
+}
+.contact{
+    padding-top: 60px;
+    margin-left: 200px;
+    line-height: 40px;
+}
+.contact_h3{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+.contact_text{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+@media (min-width:1500px){
+    .more_img{
+        position: absolute;
+        top: 516px;
+        left: 645px;
+        width: 725px;
+    }
+}
